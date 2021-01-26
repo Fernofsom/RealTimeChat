@@ -1,0 +1,27 @@
+#talk{
+    position:fixed;
+    left: 33%;
+    right: 33%;
+    border: solid black 1px;
+    display: inline-block;
+    width: 45%;
+    height: 100%;
+}
+
+#head{
+    background-color: rgb(223, 217, 217);
+    border-bottom: solid black 2px;
+    text-align: center;
+    padding: 10px;
+}
+
+.chat {
+    display: flex;
+    position: absolute;
+}
+
+#send_msg{
+    bottom: 3%;
+    right: 0;
+    padding:  0 60px;
+}
